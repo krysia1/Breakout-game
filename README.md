@@ -1,3 +1,3 @@
 # Breakout-game
 
-Breakout game written using JavaScript, React and SVG
+Breakout game written using JavaScript, React SVG and SCSS

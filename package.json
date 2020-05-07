@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development",
-    "build": "webpack --mode development"
+    "build": "webpack --mode development",
+    "scss": "node-sass sass/App.scss css/App.css -w"
   },
   "author": "Krystyna Łosieczka",
   "license": "ISC",
@@ -16,6 +17,7 @@
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.2",
     "css-loader": "^1.0.0",
+    "node-sass": "^4.14.1",
     "react-hot-loader": "^4.12.21",
     "style-loader": "^0.23.0",
     "webpack": "^4.19.1",
